@@ -14,7 +14,9 @@ function Common(props) {
                                 <h1>{props.name} 
                                     <strong className='brand-name'> Conghau❤</strong>
                                 </h1>
-                                <h2 className='my-3'>We are the team of talend developer making a website</h2>
+                                <h2 className='my-3'>
+                                     We are the team of talend developer making a website  <br/>
+                                    {props.des}</h2>
                                 <div className='mt-3'>
                                     <NavLink to={props.visit} className='btn-get-started'>{props.btnname}</NavLink>
                                 </div>
